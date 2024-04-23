@@ -1,0 +1,3 @@
+D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug/CMakeFiles/FileUtilsV2.dir
+D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug/CMakeFiles/rebuild_cache.dir

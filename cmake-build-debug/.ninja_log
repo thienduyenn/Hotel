@@ -1,0 +1,27 @@
+# ninja log v5
+40	342	7355013560354385	CMakeFiles/FileUtilsV2.dir/main.c.obj	ccd56440c5ce1ad7
+10	89	7353762709272416	CMakeFiles/FileUtilsV2.dir/library.c.obj	aaff71b1ef7c8c32
+3	102	7353892826278060	CMakeFiles/FileUtilsV2.dir/src/FileUtilsV2.c.obj	66f7a6047c563f08
+86	167	7353757227767964	libFileUtilsV2.dll	b18d73c194131c5
+29	515	7355546608260076	build.ninja	6b1aed8f9678a8a5
+86	167	7353757227767964	libFileUtilsV2.dll.a	b18d73c194131c5
+8	102	7353780807949385	CMakeFiles/FileUtilsV2.dir/src/FileUtils.c.obj	b749c054863f5395
+342	619	7355013563107158	FileUtilsV2.exe	e6f2758f2cda7373
+80	341	7355013560344319	CMakeFiles/FileUtilsV2.dir/src/core/User.database.c.obj	cc585ae8aa83b62f
+10	114	7353951494598070	CMakeFiles/FileUtilsV2.dir/src/core/FileUtilsV2.c.obj	268a44098e264362
+9	88	7354751974469172	CMakeFiles/FileUtilsV2.dir/src/cli/UserCommand.c.obj	3dc18e318b9f73d7
+17	99	7354694368656535	CMakeFiles/FileUtilsV2.dir/System.c.obj	f256f1ab58bc0cf7
+33	313	7355548355358467	CMakeFiles/FileUtilsV2.dir/src/cli/UserCommand.c.obj	3dc18e318b9f73d7
+43	318	7355548355280007	CMakeFiles/FileUtilsV2.dir/src/utils/CheckToken.c.obj	868aad5bbc79b0dc
+22	324	7355548355336633	CMakeFiles/FileUtilsV2.dir/main.c.obj	ccd56440c5ce1ad7
+28	325	7355548355456910	CMakeFiles/FileUtilsV2.dir/src/core/User.database.c.obj	cc585ae8aa83b62f
+20	72	7355548579237249	CMakeFiles/FileUtilsV2.dir/src/core/Order.database.c.obj	85a963fe1470233c
+73	331	7355548581760171	FileUtilsV2.exe	9a83c8962f2200b1
+16	102	7355549421201658	CMakeFiles/FileUtilsV2.dir/src/core/User.database.c.obj	cc585ae8aa83b62f
+103	195	7355549422074249	FileUtilsV2.exe	9a83c8962f2200b1
+17	107	7355549984728505	CMakeFiles/FileUtilsV2.dir/src/core/User.database.c.obj	cc585ae8aa83b62f
+108	203	7355549985638372	FileUtilsV2.exe	9a83c8962f2200b1
+14	110	7355551239234741	CMakeFiles/FileUtilsV2.dir/src/core/User.database.c.obj	cc585ae8aa83b62f
+110	206	7355551240147791	FileUtilsV2.exe	9a83c8962f2200b1
+19	104	7355551517313023	CMakeFiles/FileUtilsV2.dir/src/core/User.database.c.obj	cc585ae8aa83b62f
+105	194	7355551518173642	FileUtilsV2.exe	9a83c8962f2200b1

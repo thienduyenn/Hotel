@@ -1,0 +1,5 @@
+1 thienduyen 8505 manager 1000
+2 lky 3008 receptionist 500
+3 tvy 1906 receptionist 500
+4 trucanh 2804 receptionist 500
+5 thuytrang 2604 receptionist 500
