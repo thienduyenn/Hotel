@@ -23,8 +23,6 @@ int main(){
 //        exit = Choose(option);
 //    }
 
-    float salary = 0;
-    calculateSalary("database/dateWork.txt", "TD", &salary);
-    printf("Salary: %f", salary);
+
     return 0;
 }
