@@ -20,11 +20,13 @@ typedef struct {
 
 
 bool assignRole(const char *filename, const char *username, User *newUser, const char *role);
+
 bool getAllUser(const char *filename, User *listUsers, int *size);
 
-bool addDateWork( char *filename, DateWork *dateWork);
-bool updateDataWork(const char  *filename, const char *username, DateWork *dateWork, const char *fieldToUpdate);
+bool addDateWork(char *filename, DateWork *dateWork);
 
-bool calculateSalary(const char *filename, const char *username, float *salary);
+bool updateDataWork(const char *filename, const char *username, DateWork *dateWork, const char *fieldToUpdate);
+
+bool calculateSalary(const char *filename, const char *username, float *salary, int month, int year);
 
 #endif //FILEUTILSV2_STAFF_DATABASE_H

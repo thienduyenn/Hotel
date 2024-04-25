@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Users\THIEN DUYEN\AppData\Local\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Users\THIEN DUYEN\AppData\Local\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,267 +72,267 @@ CMakeFiles/FileUtilsV2.dir/main.c.obj: CMakeFiles/FileUtilsV2.dir/flags.make
 CMakeFiles/FileUtilsV2.dir/main.c.obj: D:/WORKSPACE/hotel/main.c
 CMakeFiles/FileUtilsV2.dir/main.c.obj: CMakeFiles/FileUtilsV2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\WORKSPACE\hotel\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/FileUtilsV2.dir/main.c.obj"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/main.c.obj -MF CMakeFiles\FileUtilsV2.dir\main.c.obj.d -o CMakeFiles\FileUtilsV2.dir\main.c.obj -c D:\WORKSPACE\hotel\main.c
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/main.c.obj -MF CMakeFiles\FileUtilsV2.dir\main.c.obj.d -o CMakeFiles\FileUtilsV2.dir\main.c.obj -c D:\WORKSPACE\hotel\main.c
 
 CMakeFiles/FileUtilsV2.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FileUtilsV2.dir/main.c.i"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\main.c > CMakeFiles\FileUtilsV2.dir\main.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\main.c > CMakeFiles\FileUtilsV2.dir\main.c.i
 
 CMakeFiles/FileUtilsV2.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FileUtilsV2.dir/main.c.s"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\main.c -o CMakeFiles\FileUtilsV2.dir\main.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\main.c -o CMakeFiles\FileUtilsV2.dir\main.c.s
 
 CMakeFiles/FileUtilsV2.dir/src/core/User.database.c.obj: CMakeFiles/FileUtilsV2.dir/flags.make
 CMakeFiles/FileUtilsV2.dir/src/core/User.database.c.obj: D:/WORKSPACE/hotel/src/core/User.database.c
 CMakeFiles/FileUtilsV2.dir/src/core/User.database.c.obj: CMakeFiles/FileUtilsV2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\WORKSPACE\hotel\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/FileUtilsV2.dir/src/core/User.database.c.obj"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/core/User.database.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\core\User.database.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\core\User.database.c.obj -c D:\WORKSPACE\hotel\src\core\User.database.c
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/core/User.database.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\core\User.database.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\core\User.database.c.obj -c D:\WORKSPACE\hotel\src\core\User.database.c
 
 CMakeFiles/FileUtilsV2.dir/src/core/User.database.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FileUtilsV2.dir/src/core/User.database.c.i"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\core\User.database.c > CMakeFiles\FileUtilsV2.dir\src\core\User.database.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\core\User.database.c > CMakeFiles\FileUtilsV2.dir\src\core\User.database.c.i
 
 CMakeFiles/FileUtilsV2.dir/src/core/User.database.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FileUtilsV2.dir/src/core/User.database.c.s"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\core\User.database.c -o CMakeFiles\FileUtilsV2.dir\src\core\User.database.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\core\User.database.c -o CMakeFiles\FileUtilsV2.dir\src\core\User.database.c.s
 
 CMakeFiles/FileUtilsV2.dir/System.c.obj: CMakeFiles/FileUtilsV2.dir/flags.make
 CMakeFiles/FileUtilsV2.dir/System.c.obj: D:/WORKSPACE/hotel/System.c
 CMakeFiles/FileUtilsV2.dir/System.c.obj: CMakeFiles/FileUtilsV2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\WORKSPACE\hotel\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/FileUtilsV2.dir/System.c.obj"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/System.c.obj -MF CMakeFiles\FileUtilsV2.dir\System.c.obj.d -o CMakeFiles\FileUtilsV2.dir\System.c.obj -c D:\WORKSPACE\hotel\System.c
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/System.c.obj -MF CMakeFiles\FileUtilsV2.dir\System.c.obj.d -o CMakeFiles\FileUtilsV2.dir\System.c.obj -c D:\WORKSPACE\hotel\System.c
 
 CMakeFiles/FileUtilsV2.dir/System.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FileUtilsV2.dir/System.c.i"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\System.c > CMakeFiles\FileUtilsV2.dir\System.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\System.c > CMakeFiles\FileUtilsV2.dir\System.c.i
 
 CMakeFiles/FileUtilsV2.dir/System.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FileUtilsV2.dir/System.c.s"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\System.c -o CMakeFiles\FileUtilsV2.dir\System.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\System.c -o CMakeFiles\FileUtilsV2.dir\System.c.s
 
 CMakeFiles/FileUtilsV2.dir/src/cli/UserCommand.c.obj: CMakeFiles/FileUtilsV2.dir/flags.make
 CMakeFiles/FileUtilsV2.dir/src/cli/UserCommand.c.obj: D:/WORKSPACE/hotel/src/cli/UserCommand.c
 CMakeFiles/FileUtilsV2.dir/src/cli/UserCommand.c.obj: CMakeFiles/FileUtilsV2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\WORKSPACE\hotel\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/FileUtilsV2.dir/src/cli/UserCommand.c.obj"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/cli/UserCommand.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\cli\UserCommand.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\cli\UserCommand.c.obj -c D:\WORKSPACE\hotel\src\cli\UserCommand.c
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/cli/UserCommand.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\cli\UserCommand.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\cli\UserCommand.c.obj -c D:\WORKSPACE\hotel\src\cli\UserCommand.c
 
 CMakeFiles/FileUtilsV2.dir/src/cli/UserCommand.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FileUtilsV2.dir/src/cli/UserCommand.c.i"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\cli\UserCommand.c > CMakeFiles\FileUtilsV2.dir\src\cli\UserCommand.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\cli\UserCommand.c > CMakeFiles\FileUtilsV2.dir\src\cli\UserCommand.c.i
 
 CMakeFiles/FileUtilsV2.dir/src/cli/UserCommand.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FileUtilsV2.dir/src/cli/UserCommand.c.s"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\cli\UserCommand.c -o CMakeFiles\FileUtilsV2.dir\src\cli\UserCommand.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\cli\UserCommand.c -o CMakeFiles\FileUtilsV2.dir\src\cli\UserCommand.c.s
 
 CMakeFiles/FileUtilsV2.dir/src/core/Order.database.c.obj: CMakeFiles/FileUtilsV2.dir/flags.make
 CMakeFiles/FileUtilsV2.dir/src/core/Order.database.c.obj: D:/WORKSPACE/hotel/src/core/Order.database.c
 CMakeFiles/FileUtilsV2.dir/src/core/Order.database.c.obj: CMakeFiles/FileUtilsV2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\WORKSPACE\hotel\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/FileUtilsV2.dir/src/core/Order.database.c.obj"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/core/Order.database.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\core\Order.database.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\core\Order.database.c.obj -c D:\WORKSPACE\hotel\src\core\Order.database.c
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/core/Order.database.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\core\Order.database.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\core\Order.database.c.obj -c D:\WORKSPACE\hotel\src\core\Order.database.c
 
 CMakeFiles/FileUtilsV2.dir/src/core/Order.database.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FileUtilsV2.dir/src/core/Order.database.c.i"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\core\Order.database.c > CMakeFiles\FileUtilsV2.dir\src\core\Order.database.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\core\Order.database.c > CMakeFiles\FileUtilsV2.dir\src\core\Order.database.c.i
 
 CMakeFiles/FileUtilsV2.dir/src/core/Order.database.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FileUtilsV2.dir/src/core/Order.database.c.s"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\core\Order.database.c -o CMakeFiles\FileUtilsV2.dir\src\core\Order.database.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\core\Order.database.c -o CMakeFiles\FileUtilsV2.dir\src\core\Order.database.c.s
 
 CMakeFiles/FileUtilsV2.dir/src/utils/CheckToken.c.obj: CMakeFiles/FileUtilsV2.dir/flags.make
 CMakeFiles/FileUtilsV2.dir/src/utils/CheckToken.c.obj: D:/WORKSPACE/hotel/src/utils/CheckToken.c
 CMakeFiles/FileUtilsV2.dir/src/utils/CheckToken.c.obj: CMakeFiles/FileUtilsV2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\WORKSPACE\hotel\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/FileUtilsV2.dir/src/utils/CheckToken.c.obj"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/utils/CheckToken.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\utils\CheckToken.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\utils\CheckToken.c.obj -c D:\WORKSPACE\hotel\src\utils\CheckToken.c
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/utils/CheckToken.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\utils\CheckToken.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\utils\CheckToken.c.obj -c D:\WORKSPACE\hotel\src\utils\CheckToken.c
 
 CMakeFiles/FileUtilsV2.dir/src/utils/CheckToken.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FileUtilsV2.dir/src/utils/CheckToken.c.i"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\utils\CheckToken.c > CMakeFiles\FileUtilsV2.dir\src\utils\CheckToken.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\utils\CheckToken.c > CMakeFiles\FileUtilsV2.dir\src\utils\CheckToken.c.i
 
 CMakeFiles/FileUtilsV2.dir/src/utils/CheckToken.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FileUtilsV2.dir/src/utils/CheckToken.c.s"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\utils\CheckToken.c -o CMakeFiles\FileUtilsV2.dir\src\utils\CheckToken.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\utils\CheckToken.c -o CMakeFiles\FileUtilsV2.dir\src\utils\CheckToken.c.s
 
 CMakeFiles/FileUtilsV2.dir/src/cli/OrderCommand.c.obj: CMakeFiles/FileUtilsV2.dir/flags.make
 CMakeFiles/FileUtilsV2.dir/src/cli/OrderCommand.c.obj: D:/WORKSPACE/hotel/src/cli/OrderCommand.c
 CMakeFiles/FileUtilsV2.dir/src/cli/OrderCommand.c.obj: CMakeFiles/FileUtilsV2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\WORKSPACE\hotel\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/FileUtilsV2.dir/src/cli/OrderCommand.c.obj"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/cli/OrderCommand.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\cli\OrderCommand.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\cli\OrderCommand.c.obj -c D:\WORKSPACE\hotel\src\cli\OrderCommand.c
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/cli/OrderCommand.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\cli\OrderCommand.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\cli\OrderCommand.c.obj -c D:\WORKSPACE\hotel\src\cli\OrderCommand.c
 
 CMakeFiles/FileUtilsV2.dir/src/cli/OrderCommand.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FileUtilsV2.dir/src/cli/OrderCommand.c.i"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\cli\OrderCommand.c > CMakeFiles\FileUtilsV2.dir\src\cli\OrderCommand.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\cli\OrderCommand.c > CMakeFiles\FileUtilsV2.dir\src\cli\OrderCommand.c.i
 
 CMakeFiles/FileUtilsV2.dir/src/cli/OrderCommand.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FileUtilsV2.dir/src/cli/OrderCommand.c.s"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\cli\OrderCommand.c -o CMakeFiles\FileUtilsV2.dir\src\cli\OrderCommand.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\cli\OrderCommand.c -o CMakeFiles\FileUtilsV2.dir\src\cli\OrderCommand.c.s
 
 CMakeFiles/FileUtilsV2.dir/src/cli/OrderRoomCommand.c.obj: CMakeFiles/FileUtilsV2.dir/flags.make
 CMakeFiles/FileUtilsV2.dir/src/cli/OrderRoomCommand.c.obj: D:/WORKSPACE/hotel/src/cli/OrderRoomCommand.c
 CMakeFiles/FileUtilsV2.dir/src/cli/OrderRoomCommand.c.obj: CMakeFiles/FileUtilsV2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\WORKSPACE\hotel\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/FileUtilsV2.dir/src/cli/OrderRoomCommand.c.obj"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/cli/OrderRoomCommand.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\cli\OrderRoomCommand.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\cli\OrderRoomCommand.c.obj -c D:\WORKSPACE\hotel\src\cli\OrderRoomCommand.c
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/cli/OrderRoomCommand.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\cli\OrderRoomCommand.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\cli\OrderRoomCommand.c.obj -c D:\WORKSPACE\hotel\src\cli\OrderRoomCommand.c
 
 CMakeFiles/FileUtilsV2.dir/src/cli/OrderRoomCommand.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FileUtilsV2.dir/src/cli/OrderRoomCommand.c.i"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\cli\OrderRoomCommand.c > CMakeFiles\FileUtilsV2.dir\src\cli\OrderRoomCommand.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\cli\OrderRoomCommand.c > CMakeFiles\FileUtilsV2.dir\src\cli\OrderRoomCommand.c.i
 
 CMakeFiles/FileUtilsV2.dir/src/cli/OrderRoomCommand.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FileUtilsV2.dir/src/cli/OrderRoomCommand.c.s"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\cli\OrderRoomCommand.c -o CMakeFiles\FileUtilsV2.dir\src\cli\OrderRoomCommand.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\cli\OrderRoomCommand.c -o CMakeFiles\FileUtilsV2.dir\src\cli\OrderRoomCommand.c.s
 
 CMakeFiles/FileUtilsV2.dir/src/core/OrderRoom.c.obj: CMakeFiles/FileUtilsV2.dir/flags.make
 CMakeFiles/FileUtilsV2.dir/src/core/OrderRoom.c.obj: D:/WORKSPACE/hotel/src/core/OrderRoom.c
 CMakeFiles/FileUtilsV2.dir/src/core/OrderRoom.c.obj: CMakeFiles/FileUtilsV2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\WORKSPACE\hotel\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/FileUtilsV2.dir/src/core/OrderRoom.c.obj"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/core/OrderRoom.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\core\OrderRoom.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\core\OrderRoom.c.obj -c D:\WORKSPACE\hotel\src\core\OrderRoom.c
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/core/OrderRoom.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\core\OrderRoom.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\core\OrderRoom.c.obj -c D:\WORKSPACE\hotel\src\core\OrderRoom.c
 
 CMakeFiles/FileUtilsV2.dir/src/core/OrderRoom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FileUtilsV2.dir/src/core/OrderRoom.c.i"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\core\OrderRoom.c > CMakeFiles\FileUtilsV2.dir\src\core\OrderRoom.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\core\OrderRoom.c > CMakeFiles\FileUtilsV2.dir\src\core\OrderRoom.c.i
 
 CMakeFiles/FileUtilsV2.dir/src/core/OrderRoom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FileUtilsV2.dir/src/core/OrderRoom.c.s"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\core\OrderRoom.c -o CMakeFiles\FileUtilsV2.dir\src\core\OrderRoom.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\core\OrderRoom.c -o CMakeFiles\FileUtilsV2.dir\src\core\OrderRoom.c.s
 
 CMakeFiles/FileUtilsV2.dir/src/utils/generateUUID.c.obj: CMakeFiles/FileUtilsV2.dir/flags.make
 CMakeFiles/FileUtilsV2.dir/src/utils/generateUUID.c.obj: D:/WORKSPACE/hotel/src/utils/generateUUID.c
 CMakeFiles/FileUtilsV2.dir/src/utils/generateUUID.c.obj: CMakeFiles/FileUtilsV2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\WORKSPACE\hotel\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/FileUtilsV2.dir/src/utils/generateUUID.c.obj"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/utils/generateUUID.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\utils\generateUUID.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\utils\generateUUID.c.obj -c D:\WORKSPACE\hotel\src\utils\generateUUID.c
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/utils/generateUUID.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\utils\generateUUID.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\utils\generateUUID.c.obj -c D:\WORKSPACE\hotel\src\utils\generateUUID.c
 
 CMakeFiles/FileUtilsV2.dir/src/utils/generateUUID.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FileUtilsV2.dir/src/utils/generateUUID.c.i"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\utils\generateUUID.c > CMakeFiles\FileUtilsV2.dir\src\utils\generateUUID.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\utils\generateUUID.c > CMakeFiles\FileUtilsV2.dir\src\utils\generateUUID.c.i
 
 CMakeFiles/FileUtilsV2.dir/src/utils/generateUUID.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FileUtilsV2.dir/src/utils/generateUUID.c.s"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\utils\generateUUID.c -o CMakeFiles\FileUtilsV2.dir\src\utils\generateUUID.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\utils\generateUUID.c -o CMakeFiles\FileUtilsV2.dir\src\utils\generateUUID.c.s
 
 CMakeFiles/FileUtilsV2.dir/src/cli/ServiceCommand.c.obj: CMakeFiles/FileUtilsV2.dir/flags.make
 CMakeFiles/FileUtilsV2.dir/src/cli/ServiceCommand.c.obj: D:/WORKSPACE/hotel/src/cli/ServiceCommand.c
 CMakeFiles/FileUtilsV2.dir/src/cli/ServiceCommand.c.obj: CMakeFiles/FileUtilsV2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\WORKSPACE\hotel\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/FileUtilsV2.dir/src/cli/ServiceCommand.c.obj"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/cli/ServiceCommand.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\cli\ServiceCommand.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\cli\ServiceCommand.c.obj -c D:\WORKSPACE\hotel\src\cli\ServiceCommand.c
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/cli/ServiceCommand.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\cli\ServiceCommand.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\cli\ServiceCommand.c.obj -c D:\WORKSPACE\hotel\src\cli\ServiceCommand.c
 
 CMakeFiles/FileUtilsV2.dir/src/cli/ServiceCommand.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FileUtilsV2.dir/src/cli/ServiceCommand.c.i"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\cli\ServiceCommand.c > CMakeFiles\FileUtilsV2.dir\src\cli\ServiceCommand.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\cli\ServiceCommand.c > CMakeFiles\FileUtilsV2.dir\src\cli\ServiceCommand.c.i
 
 CMakeFiles/FileUtilsV2.dir/src/cli/ServiceCommand.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FileUtilsV2.dir/src/cli/ServiceCommand.c.s"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\cli\ServiceCommand.c -o CMakeFiles\FileUtilsV2.dir\src\cli\ServiceCommand.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\cli\ServiceCommand.c -o CMakeFiles\FileUtilsV2.dir\src\cli\ServiceCommand.c.s
 
 CMakeFiles/FileUtilsV2.dir/src/core/OrderService.c.obj: CMakeFiles/FileUtilsV2.dir/flags.make
 CMakeFiles/FileUtilsV2.dir/src/core/OrderService.c.obj: D:/WORKSPACE/hotel/src/core/OrderService.c
 CMakeFiles/FileUtilsV2.dir/src/core/OrderService.c.obj: CMakeFiles/FileUtilsV2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\WORKSPACE\hotel\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/FileUtilsV2.dir/src/core/OrderService.c.obj"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/core/OrderService.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\core\OrderService.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\core\OrderService.c.obj -c D:\WORKSPACE\hotel\src\core\OrderService.c
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/core/OrderService.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\core\OrderService.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\core\OrderService.c.obj -c D:\WORKSPACE\hotel\src\core\OrderService.c
 
 CMakeFiles/FileUtilsV2.dir/src/core/OrderService.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FileUtilsV2.dir/src/core/OrderService.c.i"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\core\OrderService.c > CMakeFiles\FileUtilsV2.dir\src\core\OrderService.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\core\OrderService.c > CMakeFiles\FileUtilsV2.dir\src\core\OrderService.c.i
 
 CMakeFiles/FileUtilsV2.dir/src/core/OrderService.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FileUtilsV2.dir/src/core/OrderService.c.s"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\core\OrderService.c -o CMakeFiles\FileUtilsV2.dir\src\core\OrderService.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\core\OrderService.c -o CMakeFiles\FileUtilsV2.dir\src\core\OrderService.c.s
 
 CMakeFiles/FileUtilsV2.dir/src/utils/FetchUsernameFromTokenFile.c.obj: CMakeFiles/FileUtilsV2.dir/flags.make
 CMakeFiles/FileUtilsV2.dir/src/utils/FetchUsernameFromTokenFile.c.obj: D:/WORKSPACE/hotel/src/utils/FetchUsernameFromTokenFile.c
 CMakeFiles/FileUtilsV2.dir/src/utils/FetchUsernameFromTokenFile.c.obj: CMakeFiles/FileUtilsV2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\WORKSPACE\hotel\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/FileUtilsV2.dir/src/utils/FetchUsernameFromTokenFile.c.obj"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/utils/FetchUsernameFromTokenFile.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\utils\FetchUsernameFromTokenFile.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\utils\FetchUsernameFromTokenFile.c.obj -c D:\WORKSPACE\hotel\src\utils\FetchUsernameFromTokenFile.c
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/utils/FetchUsernameFromTokenFile.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\utils\FetchUsernameFromTokenFile.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\utils\FetchUsernameFromTokenFile.c.obj -c D:\WORKSPACE\hotel\src\utils\FetchUsernameFromTokenFile.c
 
 CMakeFiles/FileUtilsV2.dir/src/utils/FetchUsernameFromTokenFile.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FileUtilsV2.dir/src/utils/FetchUsernameFromTokenFile.c.i"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\utils\FetchUsernameFromTokenFile.c > CMakeFiles\FileUtilsV2.dir\src\utils\FetchUsernameFromTokenFile.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\utils\FetchUsernameFromTokenFile.c > CMakeFiles\FileUtilsV2.dir\src\utils\FetchUsernameFromTokenFile.c.i
 
 CMakeFiles/FileUtilsV2.dir/src/utils/FetchUsernameFromTokenFile.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FileUtilsV2.dir/src/utils/FetchUsernameFromTokenFile.c.s"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\utils\FetchUsernameFromTokenFile.c -o CMakeFiles\FileUtilsV2.dir\src\utils\FetchUsernameFromTokenFile.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\utils\FetchUsernameFromTokenFile.c -o CMakeFiles\FileUtilsV2.dir\src\utils\FetchUsernameFromTokenFile.c.s
 
 CMakeFiles/FileUtilsV2.dir/src/utils/ShowUserOrder.c.obj: CMakeFiles/FileUtilsV2.dir/flags.make
 CMakeFiles/FileUtilsV2.dir/src/utils/ShowUserOrder.c.obj: D:/WORKSPACE/hotel/src/utils/ShowUserOrder.c
 CMakeFiles/FileUtilsV2.dir/src/utils/ShowUserOrder.c.obj: CMakeFiles/FileUtilsV2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\WORKSPACE\hotel\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/FileUtilsV2.dir/src/utils/ShowUserOrder.c.obj"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/utils/ShowUserOrder.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\utils\ShowUserOrder.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\utils\ShowUserOrder.c.obj -c D:\WORKSPACE\hotel\src\utils\ShowUserOrder.c
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/utils/ShowUserOrder.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\utils\ShowUserOrder.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\utils\ShowUserOrder.c.obj -c D:\WORKSPACE\hotel\src\utils\ShowUserOrder.c
 
 CMakeFiles/FileUtilsV2.dir/src/utils/ShowUserOrder.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FileUtilsV2.dir/src/utils/ShowUserOrder.c.i"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\utils\ShowUserOrder.c > CMakeFiles\FileUtilsV2.dir\src\utils\ShowUserOrder.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\utils\ShowUserOrder.c > CMakeFiles\FileUtilsV2.dir\src\utils\ShowUserOrder.c.i
 
 CMakeFiles/FileUtilsV2.dir/src/utils/ShowUserOrder.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FileUtilsV2.dir/src/utils/ShowUserOrder.c.s"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\utils\ShowUserOrder.c -o CMakeFiles\FileUtilsV2.dir\src\utils\ShowUserOrder.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\utils\ShowUserOrder.c -o CMakeFiles\FileUtilsV2.dir\src\utils\ShowUserOrder.c.s
 
 CMakeFiles/FileUtilsV2.dir/src/cli/OrderServiceCommand.c.obj: CMakeFiles/FileUtilsV2.dir/flags.make
 CMakeFiles/FileUtilsV2.dir/src/cli/OrderServiceCommand.c.obj: D:/WORKSPACE/hotel/src/cli/OrderServiceCommand.c
 CMakeFiles/FileUtilsV2.dir/src/cli/OrderServiceCommand.c.obj: CMakeFiles/FileUtilsV2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\WORKSPACE\hotel\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/FileUtilsV2.dir/src/cli/OrderServiceCommand.c.obj"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/cli/OrderServiceCommand.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\cli\OrderServiceCommand.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\cli\OrderServiceCommand.c.obj -c D:\WORKSPACE\hotel\src\cli\OrderServiceCommand.c
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/cli/OrderServiceCommand.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\cli\OrderServiceCommand.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\cli\OrderServiceCommand.c.obj -c D:\WORKSPACE\hotel\src\cli\OrderServiceCommand.c
 
 CMakeFiles/FileUtilsV2.dir/src/cli/OrderServiceCommand.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FileUtilsV2.dir/src/cli/OrderServiceCommand.c.i"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\cli\OrderServiceCommand.c > CMakeFiles\FileUtilsV2.dir\src\cli\OrderServiceCommand.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\cli\OrderServiceCommand.c > CMakeFiles\FileUtilsV2.dir\src\cli\OrderServiceCommand.c.i
 
 CMakeFiles/FileUtilsV2.dir/src/cli/OrderServiceCommand.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FileUtilsV2.dir/src/cli/OrderServiceCommand.c.s"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\cli\OrderServiceCommand.c -o CMakeFiles\FileUtilsV2.dir\src\cli\OrderServiceCommand.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\cli\OrderServiceCommand.c -o CMakeFiles\FileUtilsV2.dir\src\cli\OrderServiceCommand.c.s
 
 CMakeFiles/FileUtilsV2.dir/src/core/Room.database.c.obj: CMakeFiles/FileUtilsV2.dir/flags.make
 CMakeFiles/FileUtilsV2.dir/src/core/Room.database.c.obj: D:/WORKSPACE/hotel/src/core/Room.database.c
 CMakeFiles/FileUtilsV2.dir/src/core/Room.database.c.obj: CMakeFiles/FileUtilsV2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\WORKSPACE\hotel\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/FileUtilsV2.dir/src/core/Room.database.c.obj"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/core/Room.database.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\core\Room.database.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\core\Room.database.c.obj -c D:\WORKSPACE\hotel\src\core\Room.database.c
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/core/Room.database.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\core\Room.database.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\core\Room.database.c.obj -c D:\WORKSPACE\hotel\src\core\Room.database.c
 
 CMakeFiles/FileUtilsV2.dir/src/core/Room.database.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FileUtilsV2.dir/src/core/Room.database.c.i"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\core\Room.database.c > CMakeFiles\FileUtilsV2.dir\src\core\Room.database.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\core\Room.database.c > CMakeFiles\FileUtilsV2.dir\src\core\Room.database.c.i
 
 CMakeFiles/FileUtilsV2.dir/src/core/Room.database.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FileUtilsV2.dir/src/core/Room.database.c.s"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\core\Room.database.c -o CMakeFiles\FileUtilsV2.dir\src\core\Room.database.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\core\Room.database.c -o CMakeFiles\FileUtilsV2.dir\src\core\Room.database.c.s
 
 CMakeFiles/FileUtilsV2.dir/src/utils/Date.c.obj: CMakeFiles/FileUtilsV2.dir/flags.make
 CMakeFiles/FileUtilsV2.dir/src/utils/Date.c.obj: D:/WORKSPACE/hotel/src/utils/Date.c
 CMakeFiles/FileUtilsV2.dir/src/utils/Date.c.obj: CMakeFiles/FileUtilsV2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\WORKSPACE\hotel\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/FileUtilsV2.dir/src/utils/Date.c.obj"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/utils/Date.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\utils\Date.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\utils\Date.c.obj -c D:\WORKSPACE\hotel\src\utils\Date.c
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/utils/Date.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\utils\Date.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\utils\Date.c.obj -c D:\WORKSPACE\hotel\src\utils\Date.c
 
 CMakeFiles/FileUtilsV2.dir/src/utils/Date.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FileUtilsV2.dir/src/utils/Date.c.i"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\utils\Date.c > CMakeFiles\FileUtilsV2.dir\src\utils\Date.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\utils\Date.c > CMakeFiles\FileUtilsV2.dir\src\utils\Date.c.i
 
 CMakeFiles/FileUtilsV2.dir/src/utils/Date.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FileUtilsV2.dir/src/utils/Date.c.s"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\utils\Date.c -o CMakeFiles\FileUtilsV2.dir\src\utils\Date.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\utils\Date.c -o CMakeFiles\FileUtilsV2.dir\src\utils\Date.c.s
 
 CMakeFiles/FileUtilsV2.dir/src/core/Service.database.c.obj: CMakeFiles/FileUtilsV2.dir/flags.make
 CMakeFiles/FileUtilsV2.dir/src/core/Service.database.c.obj: D:/WORKSPACE/hotel/src/core/Service.database.c
 CMakeFiles/FileUtilsV2.dir/src/core/Service.database.c.obj: CMakeFiles/FileUtilsV2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\WORKSPACE\hotel\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/FileUtilsV2.dir/src/core/Service.database.c.obj"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/core/Service.database.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\core\Service.database.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\core\Service.database.c.obj -c D:\WORKSPACE\hotel\src\core\Service.database.c
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/core/Service.database.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\core\Service.database.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\core\Service.database.c.obj -c D:\WORKSPACE\hotel\src\core\Service.database.c
 
 CMakeFiles/FileUtilsV2.dir/src/core/Service.database.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FileUtilsV2.dir/src/core/Service.database.c.i"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\core\Service.database.c > CMakeFiles\FileUtilsV2.dir\src\core\Service.database.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\core\Service.database.c > CMakeFiles\FileUtilsV2.dir\src\core\Service.database.c.i
 
 CMakeFiles/FileUtilsV2.dir/src/core/Service.database.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FileUtilsV2.dir/src/core/Service.database.c.s"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\core\Service.database.c -o CMakeFiles\FileUtilsV2.dir\src\core\Service.database.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\core\Service.database.c -o CMakeFiles\FileUtilsV2.dir\src\core\Service.database.c.s
 
 CMakeFiles/FileUtilsV2.dir/src/core/Staff.database.c.obj: CMakeFiles/FileUtilsV2.dir/flags.make
 CMakeFiles/FileUtilsV2.dir/src/core/Staff.database.c.obj: D:/WORKSPACE/hotel/src/core/Staff.database.c
 CMakeFiles/FileUtilsV2.dir/src/core/Staff.database.c.obj: CMakeFiles/FileUtilsV2.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\WORKSPACE\hotel\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/FileUtilsV2.dir/src/core/Staff.database.c.obj"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/core/Staff.database.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\core\Staff.database.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\core\Staff.database.c.obj -c D:\WORKSPACE\hotel\src\core\Staff.database.c
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FileUtilsV2.dir/src/core/Staff.database.c.obj -MF CMakeFiles\FileUtilsV2.dir\src\core\Staff.database.c.obj.d -o CMakeFiles\FileUtilsV2.dir\src\core\Staff.database.c.obj -c D:\WORKSPACE\hotel\src\core\Staff.database.c
 
 CMakeFiles/FileUtilsV2.dir/src/core/Staff.database.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FileUtilsV2.dir/src/core/Staff.database.c.i"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\core\Staff.database.c > CMakeFiles\FileUtilsV2.dir\src\core\Staff.database.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\WORKSPACE\hotel\src\core\Staff.database.c > CMakeFiles\FileUtilsV2.dir\src\core\Staff.database.c.i
 
 CMakeFiles/FileUtilsV2.dir/src/core/Staff.database.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FileUtilsV2.dir/src/core/Staff.database.c.s"
-	C:\Users\THIEND~1\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\core\Staff.database.c -o CMakeFiles\FileUtilsV2.dir\src\core\Staff.database.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\WORKSPACE\hotel\src\core\Staff.database.c -o CMakeFiles\FileUtilsV2.dir\src\core\Staff.database.c.s
 
 # Object files for target FileUtilsV2
 FileUtilsV2_OBJECTS = \

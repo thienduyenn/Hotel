@@ -57,6 +57,19 @@ bool getAllUser(const char *filename, User *listUsers, int *size) {
     return true;
 }
 bool addDateWork( char *filename,  DateWork *dateWork){
+    if (validateDateByFormat(&dateWork->date)==0){
+        printf("Invalid date\n");
+        return false;
+    }
+
+    if (dateWork->time < 0) {
+        printf("Invalid time\n");
+        return false;
+    }
+    if (!search_user_by_username("database/users.txt", dateWork->username,false)){
+        printf("Username not found\n");
+    }
+
     FILE *file = fopen(filename, "a");
     if (file == NULL){
         printf(" Can't open file\n ");
@@ -75,11 +88,74 @@ bool addDateWork( char *filename,  DateWork *dateWork){
     fclose(file);
     return true;
 }
-bool updateDataWork(const char  *filename, const char *username, DateWork *dataWork, const char *fieldToUpdate){
+bool updateDataWork(const char  *filename, const char *username, DateWork *dateWork, const char *fieldToUpdate) {
+    if (strcmp(fieldToUpdate, "time") == 0) {
+        if (dateWork->time < 0) {
+            printf("Invalid time\n");
+            return false;
+        }
+    } else if (strcmp(fieldToUpdate, "status") == 0) {
+        if (dateWork->status != 0 && dateWork->status != 1) {
+            printf("Invalid status\n");
+            return false;
+        }
+    } else if (strcmp(fieldToUpdate, "paid") == 0) {
+        if (dateWork->paid < 0) {
+            printf("Invaild field to update\n");
+            return false;
+        }
+    }
+    FILE *file = fopen(filename, "r");
+    if (file == NULL) {
+        printf(" Can't open file\n ");
+        return false;
+    }
 
-;}
+    FILE *tempFile = fopen("database/temp.txt", "w");
+    if (tempFile == NULL) {
+        printf("Can't open file\n");
+        return false;
+    }
 
-bool calculateSalary(const char *filename, const char *username, float *salary) {
+    DateWork dateWorkTemp;
+    char line[265];
+    while (fgets(line, sizeof(line), file)) {
+        sscanf(line, "%[^,], %[^,], %d-%d-%d, %d, %d, %f",
+               dateWorkTemp.uuid, dateWorkTemp.username,
+               &dateWorkTemp.date.year, &dateWorkTemp.date.month, &dateWorkTemp.date.day,
+               &dateWorkTemp.time, &dateWorkTemp.status, &dateWorkTemp.paid);
+
+        if (strcmp(dateWorkTemp.username, username) == 0
+            && dateWorkTemp.date.year == dateWork->date.year
+            && dateWorkTemp.date.month == dateWork->date.month
+            && dateWorkTemp.date.day == dateWork->date.day)
+        {
+            if (strcmp(fieldToUpdate, "time") == 0) {
+                    dateWorkTemp.time = dateWork->time;
+                } else if (strcmp(fieldToUpdate, "status") == 0) {
+                    dateWorkTemp.status = dateWork->status;
+                } else if (strcmp(fieldToUpdate, "paid") == 0) {
+                    dateWorkTemp.paid = dateWork->paid;
+                }
+        }
+        fprintf(file, "%s, ", dateWorkTemp.uuid);
+        fprintf(file, "%s, ", dateWorkTemp.username);
+        fprintf(file, "%d-%d-%d,", dateWorkTemp.date.year, dateWorkTemp.date.month, dateWorkTemp.date.day);
+        fprintf(file,"%d, ", dateWorkTemp.time);
+        fprintf(file,"%d, ", dateWorkTemp.status);
+        fprintf(file,"%.2f\n", dateWorkTemp.paid);
+    }
+
+    fclose(file);
+    fclose(tempFile);
+
+    remove(filename);
+    rename("database/temp.txt", filename);
+    return true;
+}
+
+
+bool calculateSalary(const char *filename, const char *username, float *salary, int month, int year) {
     FILE *file = fopen(filename, "r");
     if (file == NULL) {
         printf(" Can't open file\n ");
@@ -93,7 +169,8 @@ bool calculateSalary(const char *filename, const char *username, float *salary) 
                &dateWork.date.year, &dateWork.date.month, &dateWork.date.day,
                &dateWork.time, &dateWork.status, &dateWork.paid);
 
-        if (strcmp(dateWork.username, username) == 0) {
+        if (strcmp(dateWork.username, username) == 0
+            && dateWork.date.month == month && dateWork.date.year ==    year){
             *salary += dateWork.paid *(float)dateWork.time;
         }
     }
