@@ -177,3 +177,45 @@ bool calculateSalary(const char *filename, const char *username, float *salary, 
     fclose(file);
     return true;
 }
+
+bool getAllDateWorks(const char *filename, DateWork *listDateWorks, int *size){
+    FILE *file = fopen(filename, "r");
+    if (file == NULL) {
+        printf(" Can't open file\n ");
+        return false;
+    }
+    DateWork dateWork;
+    char line[MAX_LINE_LENGTH];
+    while (fgets(line, sizeof(line), file)) {
+        sscanf(line, "%[^,], %[^,], %d-%d-%d, %d, %d, %f",
+               dateWork.uuid, dateWork.username,
+               &dateWork.date.year, &dateWork.date.month, &dateWork.date.day,
+               &dateWork.time, &dateWork.status, &dateWork.paid);
+        listDateWorks[*size] = dateWork;
+        *size += 1;
+    }
+    fclose(file);
+    return true;
+}
+bool searchDateWorkByUsername(const char *filename, const char *username, DateWork *listDateWorks, int *size){
+    FILE *file = fopen(filename, "r");
+    if (file == NULL) {
+        printf(" Can't open file\n ");
+        return false;
+    }
+    DateWork dateWork;
+    char line[MAX_LINE_LENGTH];
+    while (fgets(line, sizeof(line), file)) {
+        sscanf(line, "%[^,], %[^,], %d-%d-%d, %d, %d, %f",
+               dateWork.uuid, dateWork.username,
+               &dateWork.date.year, &dateWork.date.month, &dateWork.date.day,
+               &dateWork.time, &dateWork.status, &dateWork.paid);
+        if (strcmp(dateWork.username, username) == 0){
+            listDateWorks[*size] = dateWork;
+            *size +=1;
+        }
+    }
+    fclose(file);
+    return true;
+}
+}
