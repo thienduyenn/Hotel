@@ -218,4 +218,3 @@ bool searchDateWorkByUsername(const char *filename, const char *username, DateWo
     fclose(file);
     return true;
 }
-}
