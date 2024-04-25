@@ -1,15 +1,30 @@
-//
-// Created by THIEN DUYEN on 4/23/2024.
-//
+////
+//// Created by THIEN DUYEN on 4/23/2024.
+////
 
 #ifndef FILEUTILSV2_STAFF_DATABASE_H
 #define FILEUTILSV2_STAFF_DATABASE_H
 
 #include <stdbool.h>
-#include "entity/staff.h"
+#include "User.database.h"
+#include "../utils/Date.h"
+
+typedef struct {
+    char uuid[85];
+    char username[85];
+    Date date;
+    int time;
+    bool status;
+    float paid;
+} DateWork;
 
 
-int loginStaff(char *username, char *password);
-bool registerStaff(struct Staff newStaff);
+bool assignRole(const char *filename, const char *username, User *newUser, const char *role);
+bool getAllUser(const char *filename, User *listUsers, int *size);
+
+bool addDateWork( char *filename, DateWork *dateWork);
+bool updateDataWork(const char  *filename, const char *username, DateWork *dateWork, const char *fieldToUpdate);
+
+bool calculateSalary(const char *filename, const char *username, float *salary);
 
 #endif //FILEUTILSV2_STAFF_DATABASE_H

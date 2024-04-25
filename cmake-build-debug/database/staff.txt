@@ -1,8 +1,0 @@
-0 thienduyen 8505 manager 1000.000000 
-1 lky 3008 receptionist 500.000000 
-2 tvy 1906 receptionist 500.000000 
-3 trucanh 2804 receptionist 500.000000 
-4 thuytrang 2604 receptionist 500.000000 
-5 td 5858 manager 8500.000000 
-6 td 5858 manager 8500.000000 
-7 td 5858 manager 8500.000000 

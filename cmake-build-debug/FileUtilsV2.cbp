@@ -8,126 +8,186 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug"/>
+				<Option working_dir="D:/WORKSPACE/hotel/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/THIEND~1/AppData/Local/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/THIEND~1/AppData/Local/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/THIEND~1/AppData/Local/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/THIEND~1/AppData/Local/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FileUtilsV2">
-				<Option output="D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug/FileUtilsV2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug"/>
+				<Option output="D:/WORKSPACE/hotel/cmake-build-debug/FileUtilsV2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/WORKSPACE/hotel/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files/JetBrains/CLion 2024.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2024.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2024.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2024.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/THIEN DUYEN/AppData/Local/JetBrains/CLion 2024.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/THIEN DUYEN/AppData/Local/JetBrains/CLion 2024.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/THIEN DUYEN/AppData/Local/JetBrains/CLion 2024.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/THIEN DUYEN/AppData/Local/JetBrains/CLion 2024.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug/Makefile&quot;  VERBOSE=1 FileUtilsV2"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/THIEND~1/AppData/Local/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 FileUtilsV2"/>
+					<CompileFile command="C:/Users/THIEND~1/AppData/Local/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/THIEND~1/AppData/Local/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/THIEND~1/AppData/Local/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FileUtilsV2/fast">
-				<Option output="D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug/FileUtilsV2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug"/>
+				<Option output="D:/WORKSPACE/hotel/cmake-build-debug/FileUtilsV2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/WORKSPACE/hotel/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files/JetBrains/CLion 2024.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2024.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2024.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Program Files/JetBrains/CLion 2024.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Users/THIEN DUYEN/AppData/Local/JetBrains/CLion 2024.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/THIEN DUYEN/AppData/Local/JetBrains/CLion 2024.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/THIEN DUYEN/AppData/Local/JetBrains/CLion 2024.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/THIEN DUYEN/AppData/Local/JetBrains/CLion 2024.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug/Makefile&quot;  VERBOSE=1 FileUtilsV2/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/THIEND~1/AppData/Local/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 FileUtilsV2/fast"/>
+					<CompileFile command="C:/Users/THIEND~1/AppData/Local/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/THIEND~1/AppData/Local/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/THIEND~1/AppData/Local/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug"/>
+				<Option working_dir="D:/WORKSPACE/hotel/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/THIEND~1/AppData/Local/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/THIEND~1/AppData/Local/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/THIEND~1/AppData/Local/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/THIEND~1/AppData/Local/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug"/>
+				<Option working_dir="D:/WORKSPACE/hotel/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/Hotel-Management-Feature-/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/THIEND~1/AppData/Local/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/THIEND~1/AppData/Local/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/THIEND~1/AppData/Local/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/THIEND~1/AppData/Local/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;D:/WORKSPACE/hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/WORKSPACE/Hotel-Management-Feature-/System.c">
+		<Unit filename="D:/WORKSPACE/hotel/System.c">
 			<Option target="FileUtilsV2"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Hotel-Management-Feature-/System.h">
+		<Unit filename="D:/WORKSPACE/hotel/System.h">
 			<Option target="FileUtilsV2"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Hotel-Management-Feature-/main.c">
+		<Unit filename="D:/WORKSPACE/hotel/main.c">
 			<Option target="FileUtilsV2"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Hotel-Management-Feature-/src/cli/UserCommand.c">
+		<Unit filename="D:/WORKSPACE/hotel/src/cli/OrderCommand.c">
 			<Option target="FileUtilsV2"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Hotel-Management-Feature-/src/cli/UserCommand.h">
+		<Unit filename="D:/WORKSPACE/hotel/src/cli/OrderCommand.h">
 			<Option target="FileUtilsV2"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Hotel-Management-Feature-/src/core/Admin.database.c">
+		<Unit filename="D:/WORKSPACE/hotel/src/cli/OrderRoomCommand.c">
 			<Option target="FileUtilsV2"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Hotel-Management-Feature-/src/core/Admin.database.h">
+		<Unit filename="D:/WORKSPACE/hotel/src/cli/OrderRoomCommand.h">
 			<Option target="FileUtilsV2"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Hotel-Management-Feature-/src/core/Order.database.c">
+		<Unit filename="D:/WORKSPACE/hotel/src/cli/OrderServiceCommand.c">
 			<Option target="FileUtilsV2"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Hotel-Management-Feature-/src/core/Order.database.h">
+		<Unit filename="D:/WORKSPACE/hotel/src/cli/OrderServiceCommand.h">
 			<Option target="FileUtilsV2"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Hotel-Management-Feature-/src/core/Staff.database.c">
+		<Unit filename="D:/WORKSPACE/hotel/src/cli/ServiceCommand.c">
 			<Option target="FileUtilsV2"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Hotel-Management-Feature-/src/core/Staff.database.h">
+		<Unit filename="D:/WORKSPACE/hotel/src/cli/ServiceCommand.h">
 			<Option target="FileUtilsV2"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Hotel-Management-Feature-/src/core/User.database.c">
+		<Unit filename="D:/WORKSPACE/hotel/src/cli/UserCommand.c">
 			<Option target="FileUtilsV2"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Hotel-Management-Feature-/src/core/User.database.h">
+		<Unit filename="D:/WORKSPACE/hotel/src/cli/UserCommand.h">
 			<Option target="FileUtilsV2"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Hotel-Management-Feature-/src/core/entity/admin.h">
+		<Unit filename="D:/WORKSPACE/hotel/src/core/Order.database.c">
 			<Option target="FileUtilsV2"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Hotel-Management-Feature-/src/core/entity/staff.h">
+		<Unit filename="D:/WORKSPACE/hotel/src/core/Order.database.h">
 			<Option target="FileUtilsV2"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Hotel-Management-Feature-/src/utils/CheckToken.c">
+		<Unit filename="D:/WORKSPACE/hotel/src/core/OrderRoom.c">
 			<Option target="FileUtilsV2"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Hotel-Management-Feature-/src/utils/CheckToken.h">
+		<Unit filename="D:/WORKSPACE/hotel/src/core/OrderRoom.h">
 			<Option target="FileUtilsV2"/>
 		</Unit>
-		<Unit filename="D:/WORKSPACE/Hotel-Management-Feature-/CMakeLists.txt">
+		<Unit filename="D:/WORKSPACE/hotel/src/core/OrderService.c">
+			<Option target="FileUtilsV2"/>
+		</Unit>
+		<Unit filename="D:/WORKSPACE/hotel/src/core/OrderService.h">
+			<Option target="FileUtilsV2"/>
+		</Unit>
+		<Unit filename="D:/WORKSPACE/hotel/src/core/Room.database.c">
+			<Option target="FileUtilsV2"/>
+		</Unit>
+		<Unit filename="D:/WORKSPACE/hotel/src/core/Room.database.h">
+			<Option target="FileUtilsV2"/>
+		</Unit>
+		<Unit filename="D:/WORKSPACE/hotel/src/core/Service.database.c">
+			<Option target="FileUtilsV2"/>
+		</Unit>
+		<Unit filename="D:/WORKSPACE/hotel/src/core/Service.database.h">
+			<Option target="FileUtilsV2"/>
+		</Unit>
+		<Unit filename="D:/WORKSPACE/hotel/src/core/Staff.database.c">
+			<Option target="FileUtilsV2"/>
+		</Unit>
+		<Unit filename="D:/WORKSPACE/hotel/src/core/Staff.database.h">
+			<Option target="FileUtilsV2"/>
+		</Unit>
+		<Unit filename="D:/WORKSPACE/hotel/src/core/User.database.c">
+			<Option target="FileUtilsV2"/>
+		</Unit>
+		<Unit filename="D:/WORKSPACE/hotel/src/core/User.database.h">
+			<Option target="FileUtilsV2"/>
+		</Unit>
+		<Unit filename="D:/WORKSPACE/hotel/src/utils/CheckToken.c">
+			<Option target="FileUtilsV2"/>
+		</Unit>
+		<Unit filename="D:/WORKSPACE/hotel/src/utils/CheckToken.h">
+			<Option target="FileUtilsV2"/>
+		</Unit>
+		<Unit filename="D:/WORKSPACE/hotel/src/utils/Date.c">
+			<Option target="FileUtilsV2"/>
+		</Unit>
+		<Unit filename="D:/WORKSPACE/hotel/src/utils/Date.h">
+			<Option target="FileUtilsV2"/>
+		</Unit>
+		<Unit filename="D:/WORKSPACE/hotel/src/utils/FetchUsernameFromTokenFile.c">
+			<Option target="FileUtilsV2"/>
+		</Unit>
+		<Unit filename="D:/WORKSPACE/hotel/src/utils/FetchUsernameFromTokenFile.h">
+			<Option target="FileUtilsV2"/>
+		</Unit>
+		<Unit filename="D:/WORKSPACE/hotel/src/utils/ShowUserOrder.c">
+			<Option target="FileUtilsV2"/>
+		</Unit>
+		<Unit filename="D:/WORKSPACE/hotel/src/utils/ShowUserOrder.h">
+			<Option target="FileUtilsV2"/>
+		</Unit>
+		<Unit filename="D:/WORKSPACE/hotel/src/utils/generateUUID.c">
+			<Option target="FileUtilsV2"/>
+		</Unit>
+		<Unit filename="D:/WORKSPACE/hotel/src/utils/generateUUID.h">
+			<Option target="FileUtilsV2"/>
+		</Unit>
+		<Unit filename="D:/WORKSPACE/hotel/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

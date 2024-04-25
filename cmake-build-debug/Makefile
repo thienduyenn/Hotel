@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Users\THIEN DUYEN\AppData\Local\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Users\THIEN DUYEN\AppData\Local\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\WORKSPACE\Hotel-Management-Feature-
+CMAKE_SOURCE_DIR = D:\WORKSPACE\hotel
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\WORKSPACE\Hotel-Management-Feature-\cmake-build-debug
+CMAKE_BINARY_DIR = D:\WORKSPACE\hotel\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = D:\WORKSPACE\Hotel-Management-Feature-\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Users\THIEN DUYEN\AppData\Local\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Users\THIEN DUYEN\AppData\Local\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WORKSPACE\Hotel-Management-Feature-\cmake-build-debug\CMakeFiles D:\WORKSPACE\Hotel-Management-Feature-\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\WORKSPACE\hotel\cmake-build-debug\CMakeFiles D:\WORKSPACE\hotel\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\WORKSPACE\Hotel-Management-Feature-\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\WORKSPACE\hotel\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -176,6 +176,102 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/main.c.s
 .PHONY : main.c.s
 
+src/cli/OrderCommand.obj: src/cli/OrderCommand.c.obj
+.PHONY : src/cli/OrderCommand.obj
+
+# target to build an object file
+src/cli/OrderCommand.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/cli/OrderCommand.c.obj
+.PHONY : src/cli/OrderCommand.c.obj
+
+src/cli/OrderCommand.i: src/cli/OrderCommand.c.i
+.PHONY : src/cli/OrderCommand.i
+
+# target to preprocess a source file
+src/cli/OrderCommand.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/cli/OrderCommand.c.i
+.PHONY : src/cli/OrderCommand.c.i
+
+src/cli/OrderCommand.s: src/cli/OrderCommand.c.s
+.PHONY : src/cli/OrderCommand.s
+
+# target to generate assembly for a file
+src/cli/OrderCommand.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/cli/OrderCommand.c.s
+.PHONY : src/cli/OrderCommand.c.s
+
+src/cli/OrderRoomCommand.obj: src/cli/OrderRoomCommand.c.obj
+.PHONY : src/cli/OrderRoomCommand.obj
+
+# target to build an object file
+src/cli/OrderRoomCommand.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/cli/OrderRoomCommand.c.obj
+.PHONY : src/cli/OrderRoomCommand.c.obj
+
+src/cli/OrderRoomCommand.i: src/cli/OrderRoomCommand.c.i
+.PHONY : src/cli/OrderRoomCommand.i
+
+# target to preprocess a source file
+src/cli/OrderRoomCommand.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/cli/OrderRoomCommand.c.i
+.PHONY : src/cli/OrderRoomCommand.c.i
+
+src/cli/OrderRoomCommand.s: src/cli/OrderRoomCommand.c.s
+.PHONY : src/cli/OrderRoomCommand.s
+
+# target to generate assembly for a file
+src/cli/OrderRoomCommand.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/cli/OrderRoomCommand.c.s
+.PHONY : src/cli/OrderRoomCommand.c.s
+
+src/cli/OrderServiceCommand.obj: src/cli/OrderServiceCommand.c.obj
+.PHONY : src/cli/OrderServiceCommand.obj
+
+# target to build an object file
+src/cli/OrderServiceCommand.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/cli/OrderServiceCommand.c.obj
+.PHONY : src/cli/OrderServiceCommand.c.obj
+
+src/cli/OrderServiceCommand.i: src/cli/OrderServiceCommand.c.i
+.PHONY : src/cli/OrderServiceCommand.i
+
+# target to preprocess a source file
+src/cli/OrderServiceCommand.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/cli/OrderServiceCommand.c.i
+.PHONY : src/cli/OrderServiceCommand.c.i
+
+src/cli/OrderServiceCommand.s: src/cli/OrderServiceCommand.c.s
+.PHONY : src/cli/OrderServiceCommand.s
+
+# target to generate assembly for a file
+src/cli/OrderServiceCommand.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/cli/OrderServiceCommand.c.s
+.PHONY : src/cli/OrderServiceCommand.c.s
+
+src/cli/ServiceCommand.obj: src/cli/ServiceCommand.c.obj
+.PHONY : src/cli/ServiceCommand.obj
+
+# target to build an object file
+src/cli/ServiceCommand.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/cli/ServiceCommand.c.obj
+.PHONY : src/cli/ServiceCommand.c.obj
+
+src/cli/ServiceCommand.i: src/cli/ServiceCommand.c.i
+.PHONY : src/cli/ServiceCommand.i
+
+# target to preprocess a source file
+src/cli/ServiceCommand.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/cli/ServiceCommand.c.i
+.PHONY : src/cli/ServiceCommand.c.i
+
+src/cli/ServiceCommand.s: src/cli/ServiceCommand.c.s
+.PHONY : src/cli/ServiceCommand.s
+
+# target to generate assembly for a file
+src/cli/ServiceCommand.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/cli/ServiceCommand.c.s
+.PHONY : src/cli/ServiceCommand.c.s
+
 src/cli/UserCommand.obj: src/cli/UserCommand.c.obj
 .PHONY : src/cli/UserCommand.obj
 
@@ -200,30 +296,6 @@ src/cli/UserCommand.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/cli/UserCommand.c.s
 .PHONY : src/cli/UserCommand.c.s
 
-src/core/Admin.database.obj: src/core/Admin.database.c.obj
-.PHONY : src/core/Admin.database.obj
-
-# target to build an object file
-src/core/Admin.database.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/core/Admin.database.c.obj
-.PHONY : src/core/Admin.database.c.obj
-
-src/core/Admin.database.i: src/core/Admin.database.c.i
-.PHONY : src/core/Admin.database.i
-
-# target to preprocess a source file
-src/core/Admin.database.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/core/Admin.database.c.i
-.PHONY : src/core/Admin.database.c.i
-
-src/core/Admin.database.s: src/core/Admin.database.c.s
-.PHONY : src/core/Admin.database.s
-
-# target to generate assembly for a file
-src/core/Admin.database.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/core/Admin.database.c.s
-.PHONY : src/core/Admin.database.c.s
-
 src/core/Order.database.obj: src/core/Order.database.c.obj
 .PHONY : src/core/Order.database.obj
 
@@ -247,6 +319,102 @@ src/core/Order.database.s: src/core/Order.database.c.s
 src/core/Order.database.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/core/Order.database.c.s
 .PHONY : src/core/Order.database.c.s
+
+src/core/OrderRoom.obj: src/core/OrderRoom.c.obj
+.PHONY : src/core/OrderRoom.obj
+
+# target to build an object file
+src/core/OrderRoom.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/core/OrderRoom.c.obj
+.PHONY : src/core/OrderRoom.c.obj
+
+src/core/OrderRoom.i: src/core/OrderRoom.c.i
+.PHONY : src/core/OrderRoom.i
+
+# target to preprocess a source file
+src/core/OrderRoom.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/core/OrderRoom.c.i
+.PHONY : src/core/OrderRoom.c.i
+
+src/core/OrderRoom.s: src/core/OrderRoom.c.s
+.PHONY : src/core/OrderRoom.s
+
+# target to generate assembly for a file
+src/core/OrderRoom.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/core/OrderRoom.c.s
+.PHONY : src/core/OrderRoom.c.s
+
+src/core/OrderService.obj: src/core/OrderService.c.obj
+.PHONY : src/core/OrderService.obj
+
+# target to build an object file
+src/core/OrderService.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/core/OrderService.c.obj
+.PHONY : src/core/OrderService.c.obj
+
+src/core/OrderService.i: src/core/OrderService.c.i
+.PHONY : src/core/OrderService.i
+
+# target to preprocess a source file
+src/core/OrderService.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/core/OrderService.c.i
+.PHONY : src/core/OrderService.c.i
+
+src/core/OrderService.s: src/core/OrderService.c.s
+.PHONY : src/core/OrderService.s
+
+# target to generate assembly for a file
+src/core/OrderService.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/core/OrderService.c.s
+.PHONY : src/core/OrderService.c.s
+
+src/core/Room.database.obj: src/core/Room.database.c.obj
+.PHONY : src/core/Room.database.obj
+
+# target to build an object file
+src/core/Room.database.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/core/Room.database.c.obj
+.PHONY : src/core/Room.database.c.obj
+
+src/core/Room.database.i: src/core/Room.database.c.i
+.PHONY : src/core/Room.database.i
+
+# target to preprocess a source file
+src/core/Room.database.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/core/Room.database.c.i
+.PHONY : src/core/Room.database.c.i
+
+src/core/Room.database.s: src/core/Room.database.c.s
+.PHONY : src/core/Room.database.s
+
+# target to generate assembly for a file
+src/core/Room.database.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/core/Room.database.c.s
+.PHONY : src/core/Room.database.c.s
+
+src/core/Service.database.obj: src/core/Service.database.c.obj
+.PHONY : src/core/Service.database.obj
+
+# target to build an object file
+src/core/Service.database.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/core/Service.database.c.obj
+.PHONY : src/core/Service.database.c.obj
+
+src/core/Service.database.i: src/core/Service.database.c.i
+.PHONY : src/core/Service.database.i
+
+# target to preprocess a source file
+src/core/Service.database.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/core/Service.database.c.i
+.PHONY : src/core/Service.database.c.i
+
+src/core/Service.database.s: src/core/Service.database.c.s
+.PHONY : src/core/Service.database.s
+
+# target to generate assembly for a file
+src/core/Service.database.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/core/Service.database.c.s
+.PHONY : src/core/Service.database.c.s
 
 src/core/Staff.database.obj: src/core/Staff.database.c.obj
 .PHONY : src/core/Staff.database.obj
@@ -320,6 +488,102 @@ src/utils/CheckToken.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/utils/CheckToken.c.s
 .PHONY : src/utils/CheckToken.c.s
 
+src/utils/Date.obj: src/utils/Date.c.obj
+.PHONY : src/utils/Date.obj
+
+# target to build an object file
+src/utils/Date.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/utils/Date.c.obj
+.PHONY : src/utils/Date.c.obj
+
+src/utils/Date.i: src/utils/Date.c.i
+.PHONY : src/utils/Date.i
+
+# target to preprocess a source file
+src/utils/Date.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/utils/Date.c.i
+.PHONY : src/utils/Date.c.i
+
+src/utils/Date.s: src/utils/Date.c.s
+.PHONY : src/utils/Date.s
+
+# target to generate assembly for a file
+src/utils/Date.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/utils/Date.c.s
+.PHONY : src/utils/Date.c.s
+
+src/utils/FetchUsernameFromTokenFile.obj: src/utils/FetchUsernameFromTokenFile.c.obj
+.PHONY : src/utils/FetchUsernameFromTokenFile.obj
+
+# target to build an object file
+src/utils/FetchUsernameFromTokenFile.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/utils/FetchUsernameFromTokenFile.c.obj
+.PHONY : src/utils/FetchUsernameFromTokenFile.c.obj
+
+src/utils/FetchUsernameFromTokenFile.i: src/utils/FetchUsernameFromTokenFile.c.i
+.PHONY : src/utils/FetchUsernameFromTokenFile.i
+
+# target to preprocess a source file
+src/utils/FetchUsernameFromTokenFile.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/utils/FetchUsernameFromTokenFile.c.i
+.PHONY : src/utils/FetchUsernameFromTokenFile.c.i
+
+src/utils/FetchUsernameFromTokenFile.s: src/utils/FetchUsernameFromTokenFile.c.s
+.PHONY : src/utils/FetchUsernameFromTokenFile.s
+
+# target to generate assembly for a file
+src/utils/FetchUsernameFromTokenFile.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/utils/FetchUsernameFromTokenFile.c.s
+.PHONY : src/utils/FetchUsernameFromTokenFile.c.s
+
+src/utils/ShowUserOrder.obj: src/utils/ShowUserOrder.c.obj
+.PHONY : src/utils/ShowUserOrder.obj
+
+# target to build an object file
+src/utils/ShowUserOrder.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/utils/ShowUserOrder.c.obj
+.PHONY : src/utils/ShowUserOrder.c.obj
+
+src/utils/ShowUserOrder.i: src/utils/ShowUserOrder.c.i
+.PHONY : src/utils/ShowUserOrder.i
+
+# target to preprocess a source file
+src/utils/ShowUserOrder.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/utils/ShowUserOrder.c.i
+.PHONY : src/utils/ShowUserOrder.c.i
+
+src/utils/ShowUserOrder.s: src/utils/ShowUserOrder.c.s
+.PHONY : src/utils/ShowUserOrder.s
+
+# target to generate assembly for a file
+src/utils/ShowUserOrder.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/utils/ShowUserOrder.c.s
+.PHONY : src/utils/ShowUserOrder.c.s
+
+src/utils/generateUUID.obj: src/utils/generateUUID.c.obj
+.PHONY : src/utils/generateUUID.obj
+
+# target to build an object file
+src/utils/generateUUID.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/utils/generateUUID.c.obj
+.PHONY : src/utils/generateUUID.c.obj
+
+src/utils/generateUUID.i: src/utils/generateUUID.c.i
+.PHONY : src/utils/generateUUID.i
+
+# target to preprocess a source file
+src/utils/generateUUID.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/utils/generateUUID.c.i
+.PHONY : src/utils/generateUUID.c.i
+
+src/utils/generateUUID.s: src/utils/generateUUID.c.s
+.PHONY : src/utils/generateUUID.s
+
+# target to generate assembly for a file
+src/utils/generateUUID.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FileUtilsV2.dir\build.make CMakeFiles/FileUtilsV2.dir/src/utils/generateUUID.c.s
+.PHONY : src/utils/generateUUID.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -335,15 +599,36 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/cli/OrderCommand.obj
+	@echo ... src/cli/OrderCommand.i
+	@echo ... src/cli/OrderCommand.s
+	@echo ... src/cli/OrderRoomCommand.obj
+	@echo ... src/cli/OrderRoomCommand.i
+	@echo ... src/cli/OrderRoomCommand.s
+	@echo ... src/cli/OrderServiceCommand.obj
+	@echo ... src/cli/OrderServiceCommand.i
+	@echo ... src/cli/OrderServiceCommand.s
+	@echo ... src/cli/ServiceCommand.obj
+	@echo ... src/cli/ServiceCommand.i
+	@echo ... src/cli/ServiceCommand.s
 	@echo ... src/cli/UserCommand.obj
 	@echo ... src/cli/UserCommand.i
 	@echo ... src/cli/UserCommand.s
-	@echo ... src/core/Admin.database.obj
-	@echo ... src/core/Admin.database.i
-	@echo ... src/core/Admin.database.s
 	@echo ... src/core/Order.database.obj
 	@echo ... src/core/Order.database.i
 	@echo ... src/core/Order.database.s
+	@echo ... src/core/OrderRoom.obj
+	@echo ... src/core/OrderRoom.i
+	@echo ... src/core/OrderRoom.s
+	@echo ... src/core/OrderService.obj
+	@echo ... src/core/OrderService.i
+	@echo ... src/core/OrderService.s
+	@echo ... src/core/Room.database.obj
+	@echo ... src/core/Room.database.i
+	@echo ... src/core/Room.database.s
+	@echo ... src/core/Service.database.obj
+	@echo ... src/core/Service.database.i
+	@echo ... src/core/Service.database.s
 	@echo ... src/core/Staff.database.obj
 	@echo ... src/core/Staff.database.i
 	@echo ... src/core/Staff.database.s
@@ -353,6 +638,18 @@ help:
 	@echo ... src/utils/CheckToken.obj
 	@echo ... src/utils/CheckToken.i
 	@echo ... src/utils/CheckToken.s
+	@echo ... src/utils/Date.obj
+	@echo ... src/utils/Date.i
+	@echo ... src/utils/Date.s
+	@echo ... src/utils/FetchUsernameFromTokenFile.obj
+	@echo ... src/utils/FetchUsernameFromTokenFile.i
+	@echo ... src/utils/FetchUsernameFromTokenFile.s
+	@echo ... src/utils/ShowUserOrder.obj
+	@echo ... src/utils/ShowUserOrder.i
+	@echo ... src/utils/ShowUserOrder.s
+	@echo ... src/utils/generateUUID.obj
+	@echo ... src/utils/generateUUID.i
+	@echo ... src/utils/generateUUID.s
 .PHONY : help
 
 

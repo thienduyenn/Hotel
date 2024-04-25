@@ -1,16 +1,16 @@
-//
-// Created by hungt on 4/21/2024.
-//
+////
+//// Created by hungt on 4/21/2024.
+////
 
 #include <stdio.h>
-#include "System.h"
 #include <stdbool.h>
-#include "src/core/Admin.database.h"
+#include "System.h"
+#include "stdlib.h"
+
 #include "src/core/Staff.database.h"
 
-
-
 int main(){
+//    srand(time(NULL));
 //    bool exit = false;
 //
 //    while(!exit){
@@ -22,11 +22,9 @@ int main(){
 //
 //        exit = Choose(option);
 //    }
-    struct Staff newStaff = {6,"td","5858", "manager",8500};
-    if(registerStaff(newStaff)) {
-           printf(" Regisfekjge");
-    }else{
-           printf("fkyfagye");
-    }
+
+    float salary = 0;
+    calculateSalary("database/dateWork.txt", "TD", &salary);
+    printf("Salary: %f", salary);
     return 0;
 }
