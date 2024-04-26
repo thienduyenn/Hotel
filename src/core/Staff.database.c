@@ -88,7 +88,7 @@ bool addDateWork( char *filename,  DateWork *dateWork){
     fclose(file);
     return true;
 }
-bool updateDataWork(const char  *filename, const char *username, DateWork *dateWork, const char *fieldToUpdate) {
+bool updateDateWork(const char  *filename, const char *username, DateWork *dateWork, const char *fieldToUpdate) {
     if (strcmp(fieldToUpdate, "time") == 0) {
         if (dateWork->time < 0) {
             printf("Invalid time\n");
@@ -138,12 +138,12 @@ bool updateDataWork(const char  *filename, const char *username, DateWork *dateW
                     dateWorkTemp.paid = dateWork->paid;
                 }
         }
-        fprintf(file, "%s, ", dateWorkTemp.uuid);
-        fprintf(file, "%s, ", dateWorkTemp.username);
-        fprintf(file, "%d-%d-%d,", dateWorkTemp.date.year, dateWorkTemp.date.month, dateWorkTemp.date.day);
-        fprintf(file,"%d, ", dateWorkTemp.time);
-        fprintf(file,"%d, ", dateWorkTemp.status);
-        fprintf(file,"%.2f\n", dateWorkTemp.paid);
+        fprintf(tempFile, "%s, ", dateWorkTemp.uuid);
+        fprintf(tempFile, "%s, ", dateWorkTemp.username);
+        fprintf(tempFile, "%d-%d-%d,", dateWorkTemp.date.year, dateWorkTemp.date.month, dateWorkTemp.date.day);
+        fprintf(tempFile,"%d, ", dateWorkTemp.time);
+        fprintf(tempFile,"%d, ", dateWorkTemp.status);
+        fprintf(tempFile,"%.2f\n", dateWorkTemp.paid);
     }
 
     fclose(file);
