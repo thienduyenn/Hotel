@@ -23,7 +23,7 @@ bool assignRole(const char *filename, const char *username, User *newUser, const
 bool getAllUser(const char *filename, User *listUsers, int *size);
 
 bool addDateWork(char *filename, DateWork *dateWork);
-bool updateDataWork(const char *filename, const char *username, DateWork *dateWork, const char *fieldToUpdate);
+bool updateDateWork(const char *filename, const char *uuid, DateWork *dateWork, const char *fieldToUpdate);
 
 bool getAllDateWorks(const char *filename, DateWork *listDateWorks, int *size);
 bool searchDateWorkByUsername(const char *filename, const char *username, DateWork *listDateWorks, int *size);
